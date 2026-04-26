@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+#info {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.titulo {
+    font-family: 'Arial Narrow', sans-serif;
+    color: #ffb3d9;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px #ff00ff;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
